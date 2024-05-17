@@ -9,7 +9,7 @@
         .font-lato { font-family: 'Lato', sans-serif; }
       </style>
 </head>
-<body class="font-sans overflow-x-hidden ">
+<body class="font-sans overflow-x-hidden  ">
    <section class="">
     <div><!--Navbars-->
         <div class=" hidden lg:bg-[#333333] lg:py-2 lg:block ">
@@ -126,55 +126,56 @@
    </div>
    </div>
    </section>
-   <section class=" m-2 lg:bg-[#f2f2f2] lg:p-20 lg:mt-24"><!--News-->
+   <section class="  lg:bg-[#f2f2f2] lg:p-20 lg:mt-24"><!--News-->
     
-    <div class=" flex flex-col gap-8 h-full  px-4 py-8  mt-28 mx-12">
-        <!-- === News heading ====== -->
-        <div class=" w-full flex-col  lg:flex items-center justify-between">
-          <p class=" text-6xl text-[#a18a4d]  font-light">News</p>
-          <div class="flex items-center gap-2 text-[#a18a4d]">
-            <h5 class="font-semibold">All news</h5>
-            <img src="./assets/next.png" class="h-5 w-auto">
-          </div>
+    <div class="font-lato flex h-full flex-col gap-8 px-4 py-8 sm:px-8 lg:px-16">
+      <!-- === News heading ====== -->
+      <div class="flex items-center justify-between">
+        <h3 class="text-2xl font-semibold text-[#a18a4d] sm:text-3xl lg:text-4xl">News</h3>
+        <div class="flex items-center gap-2 text-[#a18a4d]">
+          <h5 class="font-semibold">All news</h5>
+          <img src="./assets/next.png" class="h-5 w-auto" />
         </div>
-  
-        <!-- =========== All News======== -->
-        <div class=" flex flex-col w-full  lg:grid-cols-3 ">
-  
-          <!-- ============= News Article 1 ============== -->
-  
-          <div class=" w-full lg:flex flex-col justify-between gap-0 bg-white">
-            <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8">Campus e Comunidade</span>
-            <p class="heading pb-16 px-4 text-lg font-semibold sm:px-8">Edifício da Faculdade de Ciências já se "move" a energia solar</p>
-            <p class="date px-4 pb-2 sm:px-8">30 April 2024</p>
-            <img src="/images/img 1.jpg" class="h-auto w-full object-cover">
-          </div>
-  
-          <!-- ============= News Article 2 ============== -->
-  
-          <div class="flex flex-col justify-between gap-0 bg-white">
-            <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8"> Campus e Comunidade | Multimédia | Vídeo</span>
-            <p class="heading pb-16 px-4 text-lg font-semibold sm:px-8">50 anos do 25 de Abril: "Éramos jovens e éramos felizes no que fazíamos!"</p>
-            <p class="date px-4 pb-2 sm:px-8">25 April 2024</p>
-            <img src="/images/img 2.jpg" class="h-auto w-full object-cover">
-          </div>
-  
-          <!-- ============= News Article 3 ============== -->
-          <div class="flex flex-col justify-between gap-0 bg-white">
-            <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8">Mérito | No Mundo</span>
-            <p class="heading  pb-16 px-4 text-lg font-semibold sm:px-8">Equipa da U.Porto entre as 25 melhores do mundo em programação</p>
-            <p class="date px-4 pb-2 sm:px-8">23 April 2024</p>
-            <img src="images/img 3.jpg" class="h-auto w-full object-cover">
-          </div>
-          
+      </div>
+
+      <!-- =========== All News======== -->
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+        <!-- ============= News Article 1 ============== -->
+
+        <div class="flex flex-col justify-between gap-0 bg-white">
+          <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8">Campus e Comunidade</span>
+          <p class="heading pb-16 px-4 text-lg font-semibold sm:px-8">Edifício da Faculdade de Ciências já se "move" a energia solar</p>
+          <p class="date px-4 pb-2 sm:px-8">30 April 2024</p>
+          <img src="/images/img 1.jpg" class="h-auto w-full object-cover" />
         </div>
-  
-        <!-- ======= news navigation ========= -->
-        <div class="flex justify-start gap-4">
-          <div><i class="fa-solid fa-square-caret-right fa-flip-horizontal text-3xl" style="color: #a18a4d"></i>
-          </div>
-          <div><i class="fa-solid fa-square-caret-right text-3xl" style="color: #a18a4d"></i></div>
+
+        <!-- ============= News Article 2 ============== -->
+
+        <div class="flex flex-col justify-between gap-0 bg-white">
+          <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8"> Campus e Comunidade | Multimédia | Vídeo</span>
+          <p class="heading pb-16 px-4 text-lg font-semibold sm:px-8">50 anos do 25 de Abril: "Éramos jovens e éramos felizes no que fazíamos!"</p>
+          <p class="date px-4 pb-2 sm:px-8">25 April 2024</p>
+          <img src="/images/img 2.jpg" class="h-auto w-full object-cover" />
         </div>
+
+        <!-- ============= News Article 3 ============== -->
+        <div class="flex flex-col justify-between gap-0 bg-white">
+          <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8">Mérito | No Mundo</span>
+          <p class="heading  pb-16 px-4 text-lg font-semibold sm:px-8">Equipa da U.Porto entre as 25 melhores do mundo em programação</p>
+          <p class="date px-4 pb-2 sm:px-8">23 April 2024</p>
+          <img src="/images/img 3.jpg" class="h-auto w-full object-cover" />
+        </div>
+        
+      </div>
+
+      <!-- ======= news navigation ========= -->
+      <div class="flex justify-start gap-4">
+        <div><i class="fa-solid fa-square-caret-right fa-flip-horizontal text-3xl" style="color: #a18a4d"></i>
+        </div>
+        <div><i class="fa-solid fa-square-caret-right text-3xl" style="color: #a18a4d"></i></div>
+
+      </div>
     </div>
    </section>
 
