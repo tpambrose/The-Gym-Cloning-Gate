@@ -678,6 +678,10 @@ video {
   margin: 5rem;
 }
 
+.m-32 {
+  margin: 8rem;
+}
+
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -761,6 +765,26 @@ video {
 .mx-56 {
   margin-left: 14rem;
   margin-right: 14rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-14 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .mt-3 {
@@ -1176,6 +1200,18 @@ video {
   gap: 7rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -1269,8 +1305,17 @@ video {
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#2f3439\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 52 57 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/www\.up\.pt\/portal\/static\/images\/img_minerva_footer\.png\'\)\] {
   background-image: url('https://www.up.pt/portal/static/images/img_minerva_footer.png');
+}
+
+.bg-\[url\(\'\/images\/\'\)\] {
+  background-image: url('/images/');
 }
 
 .bg-\[length\:30\%_auto\] {
@@ -1316,6 +1361,18 @@ video {
 
 .p-32 {
   padding: 8rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-20 {
@@ -1441,6 +1498,11 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .pb-16 {
@@ -1586,6 +1648,11 @@ video {
   color: #a18a4dv;
 }
 
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 .opacity-60 {
   opacity: 0.6;
 }
@@ -1647,6 +1714,20 @@ video {
 
   .lg\:order-2 {
     order: 2;
+  }
+
+  .lg\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .lg\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .lg\:mt-4 {
+    margin-top: 1rem;
   }
 
   .lg\:w-1\/2 {
