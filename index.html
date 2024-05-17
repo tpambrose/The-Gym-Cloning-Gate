@@ -98,7 +98,7 @@
         <div class="flex flex-col gap-4 w-full">
             <input class="bg-white border-2 border-black  py-4 " type="text" placeholder="All"></input>
             <input class="bg-white border-2 border-black py-4" type="text" placeholder="All"></input>
-            <button class="bg-[#a18a4d] w-full text-white text-2xl font-bold">Search</button>
+            <button class="bg-[#a18a4d] w-full text-white text-2xl font-bold py-2">Search</button>
         </div>
         <div>
             <p class="text-3xl font-semibold">Courses from A to Z:</p>
@@ -112,12 +112,12 @@
    </div>
    </div>
    </section>
-   <section class="bg-[#f2f2f2] "><!--News-->
-    <div class="mx-16">
-    <div class="font-lato flex h-full flex-col gap-8  px-4 py-8 sm:px-8 lg:px-16 mt-28 mx-16">
+   <section class="bg-[#f2f2f2] p-20"><!--News-->
+    
+    <div class="flex h-full flex-col gap-8  px-4 py-8  mt-28 mx-16">
         <!-- === News heading ====== -->
         <div class="flex items-center justify-between">
-          <h3 class="text-4xl font-light text-[#a18a4d] sm:text-3xl lg:text-4xl">News</h3>
+          <p class=" text-6xl text-[#a18a4d]  font-light">News</p>
           <div class="flex items-center gap-2 text-[#a18a4d]">
             <h5 class="font-semibold">All news</h5>
             <img src="./assets/next.png" class="h-5 w-auto">
@@ -133,7 +133,7 @@
             <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8">Campus e Comunidade</span>
             <p class="heading pb-16 px-4 text-lg font-semibold sm:px-8">Edifício da Faculdade de Ciências já se "move" a energia solar</p>
             <p class="date px-4 pb-2 sm:px-8">30 April 2024</p>
-            <img src="https://noticias.up.pt/wp-content/uploads/2024/04/upac-fc6-fcup_01.jpg" class="h-auto w-full object-cover">
+            <img src="/images/img 1.jpg" class="h-auto w-full object-cover">
           </div>
   
           <!-- ============= News Article 2 ============== -->
@@ -142,7 +142,7 @@
             <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8"> Campus e Comunidade | Multimédia | Vídeo</span>
             <p class="heading pb-16 px-4 text-lg font-semibold sm:px-8">50 anos do 25 de Abril: "Éramos jovens e éramos felizes no que fazíamos!"</p>
             <p class="date px-4 pb-2 sm:px-8">25 April 2024</p>
-            <img src="https://noticias.up.pt/wp-content/uploads/2024/04/50-anos-25-abril-isabel-pires-de-lima-manuel-matos-fernandes-madalena-pinto_antiga.jpg" class="h-auto w-full object-cover">
+            <img src="/images/img 2.jpg" class="h-auto w-full object-cover">
           </div>
   
           <!-- ============= News Article 3 ============== -->
@@ -150,31 +150,43 @@
             <span class="px-4 pt-8 pb-8 text-[#a18a4d] sm:px-8">Mérito | No Mundo</span>
             <p class="heading  pb-16 px-4 text-lg font-semibold sm:px-8">Equipa da U.Porto entre as 25 melhores do mundo em programação</p>
             <p class="date px-4 pb-2 sm:px-8">23 April 2024</p>
-            <img src="https://noticias.up.pt/wp-content/uploads/2024/04/2024-04-noticias-fcup-heroes-01.jpg" class="h-auto w-full object-cover">
+            <img src="images/img 3.jpg" class="h-auto w-full object-cover">
           </div>
           
         </div>
   
         <!-- ======= news navigation ========= -->
         <div class="flex justify-start gap-4">
-          <div><img src="./assets/left.png" class="h-12 w-auto"></div>
-          <div><img src="./assets/right.png" class="h-12 w-auto"></div>
+          <div><i class="fa-solid fa-square-caret-right fa-flip-horizontal text-3xl" style="color: #a18a4d"></i>
+          </div>
+          <div><i class="fa-solid fa-square-caret-right text-3xl" style="color: #a18a4d"></i></div>
         </div>
-      </div>
-     
-       
     </div>
    </section>
-   <section class="mx-24">
-   <div class="flex justify-between mt-10 mx-24 ">
-    <div class="px-10"> <p class="text-6xl font-light  text-[#a18a4d] ">We are a University of Excellence!</p></div>
-     <p class="text-xl font-extralight  ">
-     Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.
-    </p>
+
+   <section class="mx-24 mt-32 ">
+   <div class="flex justify-between mt-10 mx-24 gap-12 ">
+    <div class=" flex "> 
+        <p class="text-6xl font-light  text-[#a18a4d]  ">We are a University of Excellence!</p>
+
+        <img class=" w-full h-56  " src="/images/asset 18.png">
     
+</div>
+    <div class="flex flex-col gap-4"><!--for the text-->
+    <p class="text-xl font-extralight ">With over 100 years of history, the University of Porto is a <span class="font-medium">leading teaching and scientific research institution in Portugal and worldwide.</span>
+    </p>
+    <p class="text-xl font-extralight ">Considered <span>the best Portuguese University and one of the best 100 European institutions according to the most important Higher Education rankings, U.Porto combines quality teaching and excellent research with the best academic experience.
+    </span></p>
+    <p class="font-medium">We are waiting for you!</p>
+    <div class="">
+    <a class="text-[#a18a4dv]" href="#">See More</a>
+    <i class="fa-solid fa-circle-caret-right text-[#a18a4d]"></i>
+</div>
+</div>
  </div>
  <hr class="w-full h-10">
 </section>
+
  <section>
     <div class="mt-20 mx-24">
     <p class="text-[#a18a4d] mx-32 text-5xl font-extralight" >Research</p>
@@ -190,30 +202,34 @@
     </div>
 </div>
  </section>
- <section class="bg-[#a18a4d] w-full">
-    <div>
-        <i class="fa-thin fa-bullhorn fa-rotate-by" style="color: #ffffff; --fa-rotate-angle: -45deg;"></i>
-        <p>Learn more</p>
-        <p>U.PORTO IN FIGURES</p>
-        <p>2022/2023</p>
+ <section class="bg-[#a18a4d] w-full mt-32">
+    <div class=" p-32 flex flex-col gap-10 justify-center items-center  ">
+        <div class="flex  justify-end gap-56">
+        <i class="fa-thin fa-bullhorn fa-rotate-by text-6xl  " style="color: #ffffff; --fa-rotate-angle: -45deg;"></i>
+        <p class="text-white  ">Learn more</p>
+       </div>
+        <p class="text-6xl font-bold  text-white">U.PORTO IN FIGURES</p>
+        <p class="text-white text-6xl font-extralight">2022/2023</p>
         <hr class="w-full">
-        <div>
-            <p>+300</p>
-            <p>Courses</p>
+        <div class="flex justify-between  gap-28">
+        <div class="">
+            <p class="text-4xl text-white font-bold m-auto ">+300</p>
+            <p class="text-white text-4xl font-extralight ">Courses</p>
+        </div>
+        <div class="flex flex-col">
+            <p class="text-4xl text-white font-bold m-auto">+35.000</p>
+            <p class=" text-white text-4xl font-extralight">Students enrolled</p>
         </div>
         <div>
-            <p>+35.000</p>
-            <p>Students enrolled</p>
+            <p class="text-4xl text-white font-bold mx-10">48</p>
+            <p class="text-white text-4xl font-extralight">Research Units</p>
         </div>
-        <div>
-            <p>48</p>
-            <p>Research Units</p>
-        </div>
+    </div>
     </div>
  </section>
  <section>
     <div class="h-full bg-gray-100 px-4 py-8 sm:px-8 lg:px-16">
-        <h1 class="mb-4 text-3xl font-light text-[#a18a4d]"">Frequently asked questions</h1>
+        <h1 class="mb-4 text-3xl font-light text-[#a18a4d]">Frequently asked questions</h1>
         <div class="mb-8 flex flex-wrap gap-4 text-sm font-medium text-gray-600 sm:text-base">
           <a href="#" class="hover:text-gray-800">International Students</a>
           <a href="#" class="hover:text-gray-800">Prospective Students</a>
@@ -238,6 +254,101 @@
           </div>
         </div>
       </div>
+ </section>
+ <section>
+    <div class="bg-[#333] px-2 py-20 bg-[url('https://www.up.pt/portal/static/images/img_minerva_footer.png')] bg-no-repeat bg-[length:30%_auto] bg-[left_top_-14rem] ">
+        <div class="px-2 py-26 mb-24 grid md:grid-cols-5 grid-cols-1">
+          <div>
+            <p class=" block cursor-pointer px-2 py-1 font-bold text-[#a18a4d]">Media</p>
+          </div>
+          <!-- ==== Collumn === -->
+          <div>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">U.Porto News</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Brochures and Presentations</a>
+          </div>
+          <!-- ==== Collumn === -->
+          <div>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">U.Porto Agenda</a>
+          </div>
+      
+          <!-- ==== Collumn === -->
+          <div>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Media Contacts</a>
+          </div>
+      
+          <!-- ==== Collumn === -->
+          <div>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Image Manual</a>
+          </div>
+        </div>
+      
+        <!-- ====================== -->
+      
+        <div class="px-2 py-26 mb-24 grid md:grid-cols-5 grid-cols-1">
+          <div>
+            <p class=" block cursor-pointer px-2 py-1 font-bold text-[#a18a4d]">U.Porto Portals</p>
+          </div>
+          <!-- ==== Collumn === -->
+          <div>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">CDUP - U.Porto Sports Centre</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Educational Innovation</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Peer Mentoring</a>
+          </div>
+      
+          <!-- ==== Collumn === -->
+          <div>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">UPdigital Portal</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">U.Porto PRESS</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">AcademiaUP</a>
+          </div>
+      
+          <!-- ==== Collumn === -->
+          <div>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Former Students Portal</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">U.Porto Innovation</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Complaints Portal</a>
+          </div>
+      
+          <!-- ==== Collumn === -->
+          <div>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Social Support Services of the University of Porto (SASUP)</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">Documentation and Information Services and Resources (SRDI)</a>
+            <a class=" block cursor-pointer px-2 py-1 font-[200] text-white">SIGARRA U.Porto</a>
+          </div>
+        </div>
+      
+        <!-- ===================== -->
+      
+        <hr class="mx-4 my-16" />
+      
+        <div class="mx-4 grid grid-cols-6 md:grid-cols-12  gap-0">
+          <div class="col-span-10 grid grid-cols-12 mb-8">
+            <img src="" class="h-8 w-8"/>
+            <img src="" class="h-8 w-8"/>
+            <img src="" class="h-8 w-8" />
+            <img src="" class="h-8 w-8" />
+            <img src="" class="h-8 w-8" />
+            <img src="" class="h-8 w-8" />
+          </div>
+      
+          <div class="col-span-2 mb-8">
+            <a class=" block cursor-pointer font-[600] py-1 text-white ">Contacts</a>
+            <a class=" block cursor-pointer font-[300] py-1 text-white">Reitoria da Universidade do Porto</a>
+            <a class=" block cursor-pointer font-[300] py-1 text-white">Praça Gomes Teixeira</a>
+            <a class=" block cursor-pointer font-[300] py-1 text-white">4099-002 Porto, Portugal</a>
+            <a class=" block cursor-pointer font-[300] py-1 text-white">Tel.: (+351) 220 408 000</a>
+            <a class=" block cursor-pointer font-[300] py-1 text-white">E-mail: up@up.pt</a>
+          </div>
+        </div>
+      
+        <div class="mx-4 mt-5 grid w-full grid-cols-1 md:grid-cols-12 gap-0">
+          <a class=" block cursor-pointer font-[600]  text-white whitespace-nowrap col-span-3">© University of Porto 2024</a>
+          <a class=" block cursor-pointer font-[300] text-white whitespace-nowrap col-span-3">Personal Data Protection</a>
+          <a class=" block cursor-pointer font-[300] text-white whitespace-nowrap col-span-2">Privacy Policy</a>
+          <a class=" block cursor-pointer font-[300] text-white whitespace-nowrap col-span-2">Accessibility</a>
+        </div>
+      </div>
+      
  </section>
 </body>
 </html>
