@@ -12,7 +12,7 @@
 <body class="font-sans overflow-x-hidden ">
    <section class="">
     <div><!--Navbars-->
-        <div class=" bg-[#333333] py-2">
+        <div class=" hidden lg:bg-[#333333] lg:py-2 lg:block ">
         <nav class="flex justify-between mx-20">
             
                 <div class="flex mx-32 gap-6">
@@ -41,9 +41,18 @@
         </nav>
     </div>
   <nav class="bg-[#d5d5d5] ">
-    <div class="flex justify-between mx-32 py-7 ">
-    <img class="w-auto h-12 mx-20" src="/images/asset 36.svg">
-    <ul class="flex gap-6 ">
+    <div class=" py-10 lg:flex justify-between lg:mx-32 lg:py-7 ">
+    <div class=" flex justify-between">
+    <div class="flex gap-4 mx-5 ">
+    <i class="fa-light fa-bars lg:hidden "></i>
+    <img class=" w-56 h-auto lg:w-auto lg:h-12 lg:mx-20" src="/images/asset 36.svg">
+    </div>
+    <div>
+    <i class="fa-light fa-bars lg:hidden"></i>
+    </div>
+    </div>
+    
+    <ul class=" hidden lg:flex gap-6 ">
      <li>
         <a class="text-xl font-bold text-gray-800">STUDY</a>
      </li>
@@ -70,23 +79,28 @@
 </div>
   </nav>
     <div class="w-full "><!--home-->
-    <img class="  w-full h-[85vh] object-cover relative  " src="/images/asset 12.jpeg">
-    <div class="absolute bg-[#333333] opacity-90 py-8 px-4 bottom-16 mx-32 ">
-        <h2 class="text-xl font-bold text-white ">IJUP 2024: New talents in science</h2> 
-        <p class="text-xl font-bold text-white "> reveal themselves at U.Porto</p>
+    <img class="w-full h-1/2 block lg:hidden" src="/images/asset 13.jpeg">
+    <img class="  w-full h-1/2 lg:h-[85vh] object-cover relative hidden lg:block  " src="/images/asset 12.jpeg">
+    <div class=" hidden lg:block absolute bg-[#333333] opacity-90 mt-[-165px]  lg:py-8 lg:px-4 lg:bottom-16 Lg:mx-32 ">
+        <h2 class=" lg:text-xl font-bold text-white  ">IJUP 2024: New talents in science</h2> 
+        <p class="  lg:text-xl lg:font-bold  text-white  "> reveal themselves at U.Porto</p>
         <p class="text-white mt-2">More than 1,000 students are taking part in the 17th U.Porto</p>
          <p class="text-white">Youth Research Meeting from 8 to 10 May.</p>
+        <button class="bg-[#a18a4d] px-4 mt-2 mx-2">see more</button>
+    </div>
+    <div class="absolute bg-[#333333] opacity-90 mt-[-165px] py-14 w-full lg:py-8 lg:px-4 lg:bottom-16 Lg:mx-32  lg:hidden">
+        <h2 class="lg:text-xl font-bold text-white  ">We're in the world's top 200 in 13 areas of study!</h2> 
         <button class="bg-[#a18a4d] px-4 mt-2 mx-2">see more</button>
     </div>
     </div>
   
    </div>
-   <div class="mx-14">
-    <div class="mx-20" >
-    <h2 class="text-6xl text-[#a18a4d] mt-20 font-light">Study</h2>
-    <div class="flex justify-between mt-10  ">
+   <div class=" mx-3 lg:mx-14 block">
+    <div class="mx-3 lg:mx-20" >
+    <h2 class=" text-5xl mt-5 lg:text-6xl text-[#a18a4d] lg:mt-20 font-light ">Study</h2>
+    <div class=" lg:flex justify-between lg:mt-10  ">
        <div class="w-full"> <p class="text-2xl font-bold  ">Your future is here!</p></div>
-        <p class="text-xl font-extralight  ">
+        <p class="mt-5 lg:mt-0 lg:text-xl font-extralight  ">
         Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.
        </p>
        
@@ -94,7 +108,7 @@
     <hr class="mt-2 w-full">
     <div class="mt-20">
         <p class="text-3xl font-bold">Which course are you looking for?</p>
-        <div class="flex justify-between w-full gap-4 mt-10">
+        <div class=" lg:flex justify-between w-full gap-4 mt-10">
         <div class="flex flex-col gap-4 w-full">
             <input class="bg-white border-2 border-black  py-4 " type="text" placeholder="All"></input>
             <input class="bg-white border-2 border-black py-4" type="text" placeholder="All"></input>
@@ -112,11 +126,11 @@
    </div>
    </div>
    </section>
-   <section class="bg-[#f2f2f2] p-20"><!--News-->
+   <section class="bg-[#f2f2f2] p-20 mt-24"><!--News-->
     
-    <div class="flex h-full flex-col gap-8  px-4 py-8  mt-28 mx-12">
+    <div class=" flex flex-col gap-8 h-full  px-4 py-8  mt-28 mx-12">
         <!-- === News heading ====== -->
-        <div class="flex items-center justify-between">
+        <div class=" lg:flex items-center justify-between">
           <p class=" text-6xl text-[#a18a4d]  font-light">News</p>
           <div class="flex items-center gap-2 text-[#a18a4d]">
             <h5 class="font-semibold">All news</h5>
